@@ -1,0 +1,81 @@
+body{
+    height: 100vmin;
+    background-color: darkslategray;
+    display:flex;
+     align-items: center;
+    justify-content: center;
+}
+
+.winning{
+    color: beige;
+    display: none;
+}
+
+
+#ttt{
+    position: absolute;
+    top: 2vmin;
+    left: 35%vmin;
+    height: 10vmin;
+
+}
+
+
+
+
+.container{
+    height:50vmin;
+    width:50vmin;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    height:15vmin;
+    width:15vmin;
+    border-radius: 1.5rem;
+    border-width: 0.1rem;
+    border-color: white;
+    background-color: #000;
+    color: aliceblue;
+    font-size: 8vmin;
+}
+
+
+#dark{
+    height: 5vmin;
+    width: 20vmin;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border-radius: 1.5rem;
+    background-color: burlywood;
+}
+
+
+#show{
+    position:absolute;
+    top:10vmin;
+    left:42%;
+    opacity: 0;
+
+}
+
+
+
+
+
+
+
+
+#rstart{
+    height: 5vmin;
+    width: 20vmin;
+    position: relative;
+    top: 20px;
+    border-radius: 1.5rem;
+    background-color: burlywood;
+}
